@@ -126,7 +126,7 @@ AI 研究三件套：模型发布雷达、模型横评口碑、AI 新闻日报�
 
 你现在看到的这个主页：看板、热力图、3D 贡献图每天自动生成，fork 即可套用。
 
-[源码](https://github.com/fomalhaut1998/fomalhaut1998)
+[源码](https://github.com/wssg1118/wssg1118)
 
 </td>
 </tr>
