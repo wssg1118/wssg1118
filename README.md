@@ -138,7 +138,7 @@ AI 研究三件套：模型发布雷达、模型横评口碑、AI 新闻日报�
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/dashboard.svg" />
-  <img alt="GitHub 数据看板" src="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/dashboard-light.svg" width="840" />
+  <img alt="GitHub 数据看板" src="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/dashboard-light.svg" width="840" />
 </picture>
 
 <picture>
