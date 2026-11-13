@@ -1,5 +1,7 @@
 name: Update Contribution Heatmap
 run-name: Refresh heatmap
+permissions:
+  contents: write
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -16,16 +18,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
       - name: Generate heatmap
         run: node scripts/contrib-heatmap.mjs
+
       - name: Commit & push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global --add safe.directory $PWD
           git add assets/contrib-heatmap.svg assets/contrib-data.json
-          git commit -m "auto: update contribution heatmap" || echo "no change"
+          git commit -m "auto: update contribution heatmap" || echo "no new change"
           git push
