@@ -15,7 +15,7 @@
  */
 import { writeFileSync, mkdirSync } from 'node:fs';
 
-const LOGIN = process.env.GH_LOGIN || 'fomalhaut1998';
+const LOGIN = process.env.GH_LOGIN || 'wssg1118';
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const OUT_DIR = 'assets';
 const WINDOW_DAYS = 365;
