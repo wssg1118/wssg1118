@@ -137,23 +137,23 @@ AI 研究三件套：模型发布雷达、模型横评口碑、AI 新闻日报�
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/dashboard.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/dashboard.svg" />
   <img alt="GitHub 数据看板" src="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/dashboard-light.svg" width="840" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/contrib-heatmap.svg" />
-  <img alt="贡献热力图" src="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/contrib-heatmap-light.svg" width="840" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/contrib-heatmap.svg" />
+  <img alt="贡献热力图" src="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/contrib-heatmap-light.svg" width="840" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/activity.svg" />
-  <img alt="活动曲线" src="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/assets/activity-light.svg" width="840" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/activity.svg" />
+  <img alt="活动曲线" src="https://raw.githubusercontent.com/wssg1118/wssg1118/main/assets/activity-light.svg" width="840" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/profile-3d-contrib/night.svg" />
-  <img alt="3D 贡献图" src="https://raw.githubusercontent.com/fomalhaut1998/fomalhaut1998/main/profile-3d-contrib/day.svg" width="840" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wssg1118/wssg1118/main/profile-3d-contrib/night.svg" />
+  <img alt="3D 贡献图" src="https://raw.githubusercontent.com/wssg1118/wssg1118/main/profile-3d-contrib/day.svg" width="840" />
 </picture>
 
 </div>
