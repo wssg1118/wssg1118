@@ -10,29 +10,26 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      GH_LOGIN: ${{ secrets.GH_LOGIN }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }}
+          # 这里不要传你的 PAT！内置 GITHUB_TOKEN 自动生效
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Generate heatmap
+      - name: Run heatmap script
         run: node scripts/contrib-heatmap.mjs
 
-      - name: Commit & push
+      - name: Commit & Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global --add safe.directory $PWD
+          git config --global --add safe.directory "$PWD"
           git add assets/contrib-heatmap.svg assets/contrib-data.json
-          git commit -m "auto: update contribution heatmap" || echo "no new change"
+          git commit --allow-empty -m "auto: update heatmap"
           git push
